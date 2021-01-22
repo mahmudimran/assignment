@@ -1,9 +1,10 @@
-
+// https://github.com/mahmudimran/assignment
 
 //kilometerToMeter
 
 function kilometerToMeter(kilometer){
     var meter = kilometer * 1000;
+    
     return meter;
 }
 
@@ -33,6 +34,7 @@ function budgetCalculator(watch,mobile,laptop){
         
 
     }
+
     return totalPrice;
 }
 
@@ -56,6 +58,7 @@ function hotelCost(days){
         var third = remaining * 50;
         totalCost = first + second + third;
     }
+
     return  totalCost;
 }
 
@@ -69,6 +72,7 @@ function megaFriend(friendName){
         myEarlyFriend = element;
     }
 
-    } return myEarlyFriend;
+    } 
+    return myEarlyFriend;
 }
    
